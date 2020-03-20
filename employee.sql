@@ -7,6 +7,8 @@ CREATE TABLE employee (
 	current_status VARCHAR(50) NOT NULL DEFAULT 'employed'
 );
 
+SHOW COLUMNS FROM employee;
+
 INSERT INTO employee(first_name, last_name, age) VALUES
 ('Aditya', 'Pathak', 19),
 ('Amit', 'Shahwal', 20),
