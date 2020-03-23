@@ -49,3 +49,12 @@ INSERT INTO books
  
  
 SELECT title FROM books;
+
+SELECT title FROM books ORDER BY released_year;
+
+SELECT 
+    author_fname AS first,
+    author_lname AS last
+    FROM books ORDER BY pages;
+
+
